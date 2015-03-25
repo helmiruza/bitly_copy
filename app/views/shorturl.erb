@@ -1,0 +1,9 @@
+<center>
+  <div class="container">
+    <h1>URL Shorties!</h1>
+    <h3>Here is your new URL:</h3>
+    <b>Your Original URL :</b> <a href="/<%=@url.original_url %>"><%=@url.original_url %></a><br>
+    <b>Your NEW URL :</b> <a href="/<%=@url.short_url %>"><%="#{request.host}:#{request.port}/" + @url.short_url %></a>
+
+  </div>
+</center>
